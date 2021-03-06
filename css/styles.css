@@ -1,4 +1,10 @@
+@font-face {
+    font-family: CapitanejoBTRegular;
+    src: url(../fonts/capitanejo-bt-regular-webfont.woff);
+}
+
 body {
+    font-family: CapitanejoBTRegular;
     margin: 0;
 }
 
@@ -63,4 +69,37 @@ header {
 
 .vitrina___coleccion {
     background: yellow;
+}
+
+.vitrina___coleccion_1 {
+    background-color: yellow;
+}
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+}
+
+.footer_colum1 {
+    width: 45%;
+    display: inline-block;
+    float: left;
+    background-color: white;
+}
+
+.footer_colum2 {
+    width: 35%;
+    display: inline-block;
+}
+
+.footer_colum3 {
+    width: 35%;
+    display: inline-block;
+    float: right;
+}
+
+.footer__imgMediopago {
+    width: 100%;
 }
