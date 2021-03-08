@@ -82,24 +82,60 @@ header {
     width: 100%;
 }
 
+.footer__content {
+    background: #f7f7f7;
+}
+
+.footer_colum {
+    height: auto;
+    padding: 30px 0 20px;
+    display: flex;
+}
+
 .footer_colum1 {
-    width: 45%;
+    width: 40%;
+    padding: 10px;
     display: inline-block;
     float: left;
     background-color: white;
 }
 
+.footer_colum1 h3 {
+    text-align: left;
+    font-size: 17px;
+}
+
 .footer_colum2 {
-    width: 35%;
+    width: 30%;
     display: inline-block;
 }
 
+.footer__menu {
+    margin: 0px;
+}
+
+.footer__menu li {
+    list-style: none;
+}
+
+.footer__menu a {
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+}
+
 .footer_colum3 {
-    width: 35%;
+    width: auto;
     display: inline-block;
     float: right;
 }
 
 .footer__imgMediopago {
     width: 100%;
+}
+
+.footer__downbanner {
+    width: 100%;
+    background: #152047;
+    align-items: center;
 }
