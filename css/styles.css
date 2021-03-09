@@ -9,26 +9,68 @@ body {
 }
 
 header {
-    width: 100%;
-}
-
-.header__logo {
-    margin: auto;
-    padding: 30px 0 50px 100px;
-    height: 60px;
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
 }
 
 
-/*color*/
+/*menu*/
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li:nth-child(5) {
+    color: red;
+}
+
+li {
+    margin: 0 15px;
+}
+
+
+/*top banner*/
 
 #header__topbanner {
     padding: 5 0px;
     width: 100%;
+    background: black;
+    color: white;
+    height: 20px;
+    text-align: center;
+}
+
+.header__banner {
+    position: relative;
 }
 
 .header__banner img {
     width: 100%;
 }
+
+.texto-banner {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+.boton {
+    border: solid;
+    padding: 15px;
+}
+
+
+/*texto Welcome */
 
 .home___text {
     height: 25%;
@@ -36,35 +78,28 @@ header {
     text-align: center;
 }
 
+
+/*vitrina*/
+
 .home__vitrina {
     padding: 2% 10%;
 }
 
 .vitrina__banner {
     display: inline-block;
-    height: 300px;
     width: 50%;
     float: left;
+}
+
+.vitrina__banner img {
+    width: 100%;
+    height: 100%;
 }
 
 .vitrina___coleccion {
     display: inline-block;
     height: 300px;
     width: 50%;
-}
-
-
-/*color*/
-
-#header__topbanner {
-    background: black;
-    color: white;
-    height: 15px;
-    text-align: center;
-}
-
-.vitrina__banner {
-    background: royalblue;
 }
 
 .vitrina___coleccion {
